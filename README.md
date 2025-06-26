@@ -3,6 +3,9 @@
 ## Project Overview
 Predicts student exam scores based on lifestyle and academic habits using machine learning.
 
+## Live Demo
+Try the app here: [Student Marks Prediction Live Demo](https://studentmarksprediction-d5f4xp6ekmdxp2zmxdx2hc.streamlit.app)
+
 ## Structure
 - data/: Raw dataset
 - models/: Saved ML models
@@ -18,7 +21,7 @@ Predicts student exam scores based on lifestyle and academic habits using machin
    ```
 2. Train the model:
    ```
-   python src/train.py
+   python -m src.train
    ```
 3. Run the Streamlit app:
    ```
